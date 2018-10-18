@@ -1,0 +1,52 @@
+﻿<Window x:Class="RosenblattNeuroNet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RosenblattNeuroNet"
+        mc:Ignorable="d"
+        Title="Нейронная сеть Розенблатта" Height="500" Width="700"  WindowStyle="None"  Background="White" WindowStartupLocation="CenterScreen"
+        Style="{StaticResource VS2012WindowStyle}">
+
+    <DockPanel>
+        <StatusBar
+            DockPanel.Dock="Bottom"
+            Height="24">
+            <TextBlock Margin="3,0,0,0">Ready</TextBlock>
+            <StatusBarItem HorizontalAlignment="Right">
+                <ResizeGrip Opacity="0.75"/>
+            </StatusBarItem>
+        </StatusBar>
+        <Grid ShowGridLines="True" >
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="BtRecognize" Panel.ZIndex="1" Grid.Column="2" Grid.Row="0" Content="Распознать" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70"  Background="#FFD2D8DC" BorderBrush="#FF46545D" Margin="0,0,10,5" Click="BtRecognize_Click"/>
+            <Button x:Name="BtCleanUpCnv" Panel.ZIndex="1" Content="{StaticResource IconCleanUp}" Grid.Column="1"  Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="30"  Background="#FFFCFDFD" BorderBrush="#FF46545D" Margin="0,0,5,5" Click="BtCleanUpCnv_Click"/>
+
+
+
+            <Grid Width="200" HorizontalAlignment="Left" Background="#FFCDCCBE" Grid.Column="0" Grid.RowSpan="2" >
+                <Label Content="Скорость обучения сети" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top"/>
+                <Label Content="Пороговое значение нейрона" HorizontalAlignment="Left" Margin="5,65,0,0" VerticalAlignment="Top"/>
+                <Label Content="Количество нейронов &#10;промежуточного слоя" HorizontalAlignment="Left" Margin="5,125,0,0" VerticalAlignment="Top" Width="154" Height="42"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="10,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="140"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="10,91,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="140"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="9,167,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="140"/>
+            </Grid>
+            <Canvas x:Name="CanvasUserDrawing"  Grid.Column="1" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Background="Gray" Margin="5,0,2,0" MouseLeftButtonDown="CanvasUserDrawing_MouseLeftButtonDown" MouseLeftButtonUp="CanvasUserDrawing_MouseLeftButtonUp" MouseMove="CanvasUserDrawing_MouseMove" />
+            <Canvas  Grid.Column="2" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Background="#FFABABAB" Margin="2,0,5,0" />
+            <Button Content="Button" Grid.Column="2" HorizontalAlignment="Left" Margin="157,182,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75"/>
+
+
+        </Grid>
+
+
+    </DockPanel>
+</Window>
