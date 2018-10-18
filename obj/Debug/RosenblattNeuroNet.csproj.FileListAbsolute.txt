@@ -1,0 +1,17 @@
+H:\Projects\VS_dotnet\RosenblattNeuroNet\bin\Debug\RosenblattNeuroNet.exe
+H:\Projects\VS_dotnet\RosenblattNeuroNet\bin\Debug\RosenblattNeuroNet.pdb
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\MainWindow.g.cs
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\App.g.cs
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\RosenblattNeuroNet_MarkupCompile.cache
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\RosenblattNeuroNet_MarkupCompile.lref
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\MainWindow.baml
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\RosenblattNeuroNet.g.resources
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\RosenblattNeuroNet.Properties.Resources.resources
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\RosenblattNeuroNet.csproj.GenerateResource.Cache
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\RosenblattNeuroNet.csproj.CoreCompileInputs.cache
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\RosenblattNeuroNet.exe
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\RosenblattNeuroNet.pdb
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\Styles\VS2012WindowStyle.baml
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\Styles\VS2012WindowStyle.g.cs
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\App.baml
+H:\Projects\VS_dotnet\RosenblattNeuroNet\obj\Debug\RosenblattNeuroNet.csprojResolveAssemblyReference.cache
